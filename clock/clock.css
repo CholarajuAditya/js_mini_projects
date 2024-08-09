@@ -1,0 +1,32 @@
+* {
+    font-family: monospace, Arial;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*::selection {
+    background-color: rgb(222, 60, 60);
+}
+
+body {
+    background: url("deadpool.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    font-weight: bold;
+    font-size: 6.5rem;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.101);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+}
