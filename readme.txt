@@ -1,1 +1,2 @@
-force push using git commands
+cloned repo
+
